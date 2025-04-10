@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tello1", "Tello1\Tello1.csproj", "{DF9A9924-19D8-4B36-A94E-0CBEA037705D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelloTest", "TelloTest\TelloTest.csproj", "{454EC52C-AD15-479F-9E54-2E1775B44846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelloLibrary", "TelloLibrary\TelloLibrary.csproj", "{ADB2C1D7-0ED1-44CC-AAAD-DB2B1C086231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52D6A2FA-9ADB-4047-B619-D01DA35CE5C6}"
+	ProjectSection(SolutionItems) = preProject
+		HowTo.md = HowTo.md
+		Readme.md = Readme.md
+		Tello_SDK_3.0_User_Guide_en.pdf = Tello_SDK_3.0_User_Guide_en.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelloLibrary_Test", "TelloLibrary_Test\TelloLibrary_Test.csproj", "{73F53013-2310-4C67-B532-777C54AED047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelloFake", "TelloFake\TelloFake.csproj", "{EEC0CD5A-15B6-4882-BA4F-91A939FE3631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TellokFakeGUI", "TellokFakeGUI\TellokFakeGUI.csproj", "{624DCFFD-E50C-4EB3-87D6-73CFF62FFBEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF9A9924-19D8-4B36-A94E-0CBEA037705D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9A9924-19D8-4B36-A94E-0CBEA037705D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9A9924-19D8-4B36-A94E-0CBEA037705D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9A9924-19D8-4B36-A94E-0CBEA037705D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454EC52C-AD15-479F-9E54-2E1775B44846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454EC52C-AD15-479F-9E54-2E1775B44846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454EC52C-AD15-479F-9E54-2E1775B44846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454EC52C-AD15-479F-9E54-2E1775B44846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB2C1D7-0ED1-44CC-AAAD-DB2B1C086231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB2C1D7-0ED1-44CC-AAAD-DB2B1C086231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB2C1D7-0ED1-44CC-AAAD-DB2B1C086231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB2C1D7-0ED1-44CC-AAAD-DB2B1C086231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F53013-2310-4C67-B532-777C54AED047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F53013-2310-4C67-B532-777C54AED047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F53013-2310-4C67-B532-777C54AED047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F53013-2310-4C67-B532-777C54AED047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC0CD5A-15B6-4882-BA4F-91A939FE3631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC0CD5A-15B6-4882-BA4F-91A939FE3631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC0CD5A-15B6-4882-BA4F-91A939FE3631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC0CD5A-15B6-4882-BA4F-91A939FE3631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624DCFFD-E50C-4EB3-87D6-73CFF62FFBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624DCFFD-E50C-4EB3-87D6-73CFF62FFBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624DCFFD-E50C-4EB3-87D6-73CFF62FFBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624DCFFD-E50C-4EB3-87D6-73CFF62FFBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {867AF52E-8175-4ED0-A51C-26660F703B66}
+	EndGlobalSection
+EndGlobal
